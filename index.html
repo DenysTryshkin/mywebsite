@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1 id="header-title">Привіт! Вітаю на моєму сайті!</h1>
+    <p id="header-description">Розробник ПЗ, захоплений подорожами та пригодами</p>
+</header>
+
+<nav>
+    <a href="#about" id="nav-about">Про мене</a>
+    <a href="#education" id="nav-education">Освіта</a>
+    <a href="#experience" id="nav-experience">Досвід</a>
+    <a href="#projects" id="nav-projects">Проекти</a>
+    <a href="#skills" id="nav-skills">Навички</a>
+    <a href="#contact" id="nav-contact">Контакти</a>
+</nav>
+
+<section id="about">
+    <h2 id="section-about-title">Про мене</h2>
+    <p id="section-about-text">Я студент магістратури з програмної інженерії в GoIT Neoversity, захоплююся програмуванням, подорожами та пригодами. Люблю вирішувати складні технічні завдання і досліджувати нові місця.</p>
+    <p>Дата народження: <span id="dob"></span></p>
+    <p>Мій вік: <span id="age"></span> років</p>
+</section>
+
+<section id="education">
+    <h2 id="section-education-title">Освіта</h2>
+    <p id="section-education-text">Навчаюсь в GoIT Neoversity, де здобуваю магістра наук у програмній інженерії. Ця програма дозволяє мені розвивати свої знання та практичні навички у створенні сучасних програмних рішень.</p>
+</section>
+
+<section id="experience">
+    <h2 id="section-experience-title">Досвід</h2>
+    <ul id="experience-list">
+        <li>
+            <h3 id="experience-job1-title">Розробник ПЗ в компанії 1</h3>
+            <p id="experience-job1-description">Опис вашого досвіду в компанії 1.</p>
+        </li>
+        <li>
+            <h3 id="experience-job2-title">Розробник ПЗ в компанії 2</h3>
+            <p id="experience-job2-description">Опис вашого досвіду в компанії 2.</p>
+        </li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2 id="section-projects-title">Проекти</h2>
+    <p id="section-projects-text">Ось кілька моїх проектів:</p>
+    <ul>
+        <li>
+            <h3 id="project1-title">Проект 1</h3>
+            <p id="project1-description">Опис проекту з посиланням на GitHub.</p>
+        </li>
+        <li>
+            <h3 id="project2-title">Проект 2</h3>
+            <p id="project2-description">Опис проекту з посиланням на GitHub.</p>
+        </li>
+    </ul>
+</section>
+
+<section id="skills" class="skills">
+    <h2 id="section-skills-title">Навички</h2>
+    <ul>
+        <li id="skill1">JavaScript</li>
+        <li id="skill2">React</li>
+        <li id="skill3">Python</li>
+        <li id="skill4">Node.js</li>
+        <li id="skill5">Git</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2 id="section-contact-title">Контакти</h2>
+    <p id="section-contact-text">Можна зв'язатися зі мною через:</p>
+    <ul>
+        <li>Email: <a href="mailto:your.email@example.com" id="contact-email">your.email@example.com</a></li>
+        <li>GitHub: <a href="https://github.com/yourusername" target="_blank" id="contact-github">github.com/yourusername</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank" id="contact-linkedin">linkedin.com/in/yourusername</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p id="footer-text">&copy; 2024 [Твоє Ім'я]. Усі права захищені.</p>
+</footer>
+
+<!-- Language Buttons -->
+<div class="language-buttons">
+    <button onclick="setLanguage('uk')">Українська</button>
+    <button onclick="setLanguage('en')">English</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
